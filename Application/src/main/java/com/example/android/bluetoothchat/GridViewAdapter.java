@@ -1,7 +1,11 @@
 package com.example.android.bluetoothchat;
 
+import android.app.Activity;
 import android.content.Context;
 import android.net.Uri;
+import android.os.Bundle;
+import android.support.v4.app.DialogFragment;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -23,11 +27,11 @@ public class GridViewAdapter extends BaseAdapter {
 
     private List<ReceivedImage> values = MainActivity.datasource.getAllComments();
     private Context context;
+    private FragmentManager ftm;
 
-
-    public GridViewAdapter(Context context){
+    public GridViewAdapter(Context context, FragmentManager ftm){
         this.context = context;
-
+        this.ftm = ftm;
     }
 
     @Override
@@ -66,14 +70,28 @@ public class GridViewAdapter extends BaseAdapter {
             public void onClick(View v) {
                 System.out.println("ID: " + imageID + "Size: " + imageSize + "URI: " + imageUri + "Time: " + imageLastTime);
 
-                ((ShowGridView)context).showInfo(imageSize,imageUri,imageLastTime);
-
+                showInfo(imageSize, imageUri, imageLastTime);
 
 
             }
         });
         return image;
     }
+    private void showInfo(String size,String uri,String time){
+        FragmentTransaction ft = ftm.beginTransaction();
+        Fragment prev = ftm.findFragmentByTag("dialog");
+        if (prev != null) {
+            ft.remove(prev);
+        }
+        ft.addToBackStack(null);
 
+        ImageInfoDialogFragment f = new ImageInfoDialogFragment();
+        Bundle args = new Bundle();
+        args.putString("size", size);
+        args.putString("uri", uri);
+        args.putString("time", time);
+        f.setArguments(args);
+        f.show(ftm,"dialog");
+    }
 
 }

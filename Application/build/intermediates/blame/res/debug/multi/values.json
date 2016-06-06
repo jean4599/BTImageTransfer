@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "outputFile": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/build/intermediates/res/merged/debug/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,640 @@
                     "endOffset": 161
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 166,
+                    "endColumn": 61,
+                    "endOffset": 223
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 228,
+                    "endColumn": 61,
+                    "endOffset": 285
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 290,
+                    "endColumn": 63,
+                    "endOffset": 349
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 2735,
+                    "endColumn": 57,
+                    "endOffset": 2788
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 2793,
+                    "endColumn": 55,
+                    "endOffset": 2844
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 2849,
+                    "endColumn": 58,
+                    "endOffset": 2903
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 2908,
+                    "endColumn": 56,
+                    "endOffset": 2960
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 2965,
+                    "endColumn": 53,
+                    "endOffset": 3014
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 3019,
+                    "endColumn": 42,
+                    "endOffset": 3057
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/23.4.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 3062,
+                    "endColumn": 69,
+                    "endOffset": 3127
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/template-dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 3132,
+                    "endColumn": 42,
+                    "endOffset": 3170
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/template-dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 3175,
+                    "endColumn": 43,
+                    "endOffset": 3214
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/template-dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 3219,
+                    "endColumn": 44,
+                    "endOffset": 3259
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/template-dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 3264,
+                    "endColumn": 42,
+                    "endOffset": 3302
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/template-dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 3307,
+                    "endColumn": 41,
+                    "endOffset": 3344
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/template-dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 3349,
+                    "endColumn": 67,
+                    "endOffset": 3412
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/template-dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 3417,
+                    "endColumn": 50,
+                    "endOffset": 3463
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/base-strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 3468,
+                    "endColumn": 101,
+                    "endOffset": 3565
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 3570,
+                    "endColumn": 56,
+                    "endOffset": 3622
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 3627,
+                    "endColumn": 58,
+                    "endOffset": 3681
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 3686,
+                    "endColumn": 69,
+                    "endOffset": 3751
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 3756,
+                    "endColumn": 72,
+                    "endOffset": 3824
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 3829,
+                    "endLine": 42,
+                    "endColumn": 13,
+                    "endOffset": 4413
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/base-strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 4418,
+                    "endColumn": 55,
+                    "endOffset": 4469
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 4474,
+                    "endColumn": 67,
+                    "endOffset": 4537
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 4542,
+                    "endColumn": 75,
+                    "endOffset": 4613
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 4618,
+                    "endColumn": 62,
+                    "endOffset": 4676
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1261,
+                        "endColumn": 63,
+                        "endOffset": 1320
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 4681,
+                    "endColumn": 52,
+                    "endOffset": 4729
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/fragmentview_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 4734,
+                    "endColumn": 52,
+                    "endOffset": 4782
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/fragmentview_strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 4787,
+                    "endColumn": 60,
+                    "endOffset": 4843
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 4848,
+                    "endColumn": 68,
+                    "endOffset": 4912
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 4917,
+                    "endColumn": 68,
+                    "endOffset": 4981
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 4986,
+                    "endColumn": 37,
+                    "endOffset": 5019
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 5024,
+                    "endColumn": 54,
+                    "endOffset": 5074
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1205,
+                        "endColumn": 55,
+                        "endOffset": 1256
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 5079,
+                    "endColumn": 96,
+                    "endOffset": 5171
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1042,
+                        "endColumn": 100,
+                        "endOffset": 1138
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 5176,
+                    "endColumn": 58,
+                    "endOffset": 5230
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 5235,
+                    "endColumn": 61,
+                    "endOffset": 5292
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 5297,
+                    "endColumn": 71,
+                    "endOffset": 5364
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 5369,
+                    "endColumn": 63,
+                    "endOffset": 5428
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 5433,
+                    "endColumn": 50,
+                    "endOffset": 5479
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/template-styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 5484,
+                    "endLine": 66,
+                    "endColumn": 12,
+                    "endOffset": 5893
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 5898,
+                    "endLine": 68,
+                    "endColumn": 12,
+                    "endOffset": 5957
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 5962,
+                    "endLine": 71,
+                    "endColumn": 12,
+                    "endOffset": 6083
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 6088,
+                    "endLine": 74,
+                    "endColumn": 12,
+                    "endOffset": 6211
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 6216,
+                    "endColumn": 59,
+                    "endOffset": 6271
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/template-styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 6276,
+                    "endColumn": 52,
+                    "endOffset": 6324
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/template-styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 6329,
+                    "endColumn": 26,
+                    "endOffset": 6351
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/template-styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 6356,
+                    "endLine": 81,
+                    "endColumn": 12,
+                    "endOffset": 6547
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/template-styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 6552,
+                    "endLine": 87,
+                    "endColumn": 12,
+                    "endOffset": 6825
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/Application/src/main/res/values/template-styles.xml"
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 60,
+                    "endOffset": 161
+                },
+                "from": {
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +663,7 @@
                     "endOffset": 223
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +682,7 @@
                     "endOffset": 285
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +701,7 @@
                     "endOffset": 349
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +720,7 @@
                     "endOffset": 2788
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\dimens.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -106,7 +739,7 @@
                     "endOffset": 2844
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\dimens.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -125,7 +758,7 @@
                     "endOffset": 2903
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -144,7 +777,7 @@
                     "endOffset": 2960
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -163,7 +796,7 @@
                     "endOffset": 3014
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -182,7 +815,7 @@
                     "endOffset": 3057
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\gridlayout-v7\\23.4.0\\res\\values\\values.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\gridlayout-v7\\23.4.0\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -201,7 +834,7 @@
                     "endOffset": 3127
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-dimens.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-dimens.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -220,7 +853,7 @@
                     "endOffset": 3170
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-dimens.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-dimens.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -239,7 +872,7 @@
                     "endOffset": 3214
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-dimens.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-dimens.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -258,7 +891,7 @@
                     "endOffset": 3259
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-dimens.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-dimens.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -277,7 +910,7 @@
                     "endOffset": 3302
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-dimens.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-dimens.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -296,7 +929,7 @@
                     "endOffset": 3344
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-dimens.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-dimens.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -315,7 +948,7 @@
                     "endOffset": 3412
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-dimens.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-dimens.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -334,7 +967,7 @@
                     "endOffset": 3463
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\base-strings.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\base-strings.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -353,7 +986,7 @@
                     "endOffset": 3565
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -372,7 +1005,7 @@
                     "endOffset": 3622
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -391,7 +1024,7 @@
                     "endOffset": 3681
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 37,
                         "startColumn": 4,
@@ -410,7 +1043,7 @@
                     "endOffset": 3751
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 4,
@@ -429,7 +1062,7 @@
                     "endOffset": 3824
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 4,
@@ -449,7 +1082,7 @@
                     "endOffset": 4413
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\base-strings.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\base-strings.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -469,7 +1102,7 @@
                     "endOffset": 4469
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -488,7 +1121,7 @@
                     "endOffset": 4537
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -507,7 +1140,7 @@
                     "endOffset": 4613
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -526,7 +1159,7 @@
                     "endOffset": 4666
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\fragmentview_strings.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\fragmentview_strings.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -545,7 +1178,7 @@
                     "endOffset": 4719
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\fragmentview_strings.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\fragmentview_strings.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -564,7 +1197,7 @@
                     "endOffset": 4780
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -583,7 +1216,7 @@
                     "endOffset": 4849
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,
@@ -602,7 +1235,7 @@
                     "endOffset": 4918
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -621,7 +1254,7 @@
                     "endOffset": 4956
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -640,7 +1273,7 @@
                     "endOffset": 5053
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -659,7 +1292,7 @@
                     "endOffset": 5112
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -678,7 +1311,7 @@
                     "endOffset": 5174
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -697,7 +1330,7 @@
                     "endOffset": 5246
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -716,7 +1349,7 @@
                     "endOffset": 5310
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -735,7 +1368,7 @@
                     "endOffset": 5361
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-styles.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-styles.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -755,7 +1388,7 @@
                     "endOffset": 5775
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -776,7 +1409,7 @@
                     "endOffset": 5839
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -797,7 +1430,7 @@
                     "endOffset": 5965
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -818,7 +1451,7 @@
                     "endOffset": 6093
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -838,7 +1471,7 @@
                     "endOffset": 6153
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-styles.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-styles.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -857,7 +1490,7 @@
                     "endOffset": 6206
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-styles.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-styles.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -876,7 +1509,7 @@
                     "endOffset": 6233
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-styles.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-styles.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -896,7 +1529,7 @@
                     "endOffset": 6429
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-styles.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-styles.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -917,7 +1550,7 @@
                     "endOffset": 6707
                 },
                 "from": {
-                    "file": "C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-styles.xml",
+                    "file": "/Users/Jean/AndroidStudioProjects/BlueToothChat/C:\\Users\\Shun-Huai.Yao\\AndroidStudioProjects\\BluetoothChat\\Application\\src\\main\\res\\values\\template-styles.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 4,

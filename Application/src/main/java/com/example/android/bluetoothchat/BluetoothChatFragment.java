@@ -73,9 +73,6 @@ public class BluetoothChatFragment extends Fragment {
     private static final int SELECT_PICTURE = 4;
 
     // Layout Views
-    private ListView mConversationView;
-    private EditText mOutEditText;
-    private Button mSendButton;
     private Button mSendPhoto;
     private Button mShowPhoto;
 
@@ -83,16 +80,6 @@ public class BluetoothChatFragment extends Fragment {
      * Name of the connected device
      */
     private String mConnectedDeviceName = null;
-
-    /**
-     * Array adapter for the conversation thread
-     */
-    private ArrayAdapter<String> mConversationArrayAdapter;
-
-    /**
-     * String buffer for outgoing messages
-     */
-    private StringBuffer mOutStringBuffer;
 
     /**
      * Local Bluetooth adapter
@@ -169,9 +156,6 @@ public class BluetoothChatFragment extends Fragment {
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
-        mConversationView = (ListView) view.findViewById(R.id.in);
-        mOutEditText = (EditText) view.findViewById(R.id.edit_text_out);
-        mSendButton = (Button) view.findViewById(R.id.button_send);
         mSendPhoto = (Button)view.findViewById(R.id.button_sendphoto);
         mShowPhoto = (Button)view.findViewById(R.id.button_showphoto);
     }
@@ -182,50 +166,24 @@ public class BluetoothChatFragment extends Fragment {
     private void setupChat() {
         Log.d(TAG, "setupChat()");
 
-        // Initialize the array adapter for the conversation thread
-        mConversationArrayAdapter = new ArrayAdapter<String>(getActivity(), R.layout.message);
-
-        mConversationView.setAdapter(mConversationArrayAdapter);
-
-        // Initialize the compose field with a listener for the return key
-        mOutEditText.setOnEditorActionListener(mWriteListener);
-
-        // Initialize the send button with a listener that for click events
-        mSendButton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                // Send a message using content of the edit text widget
-                View view = getView();
-                if (null != view) {
-                    TextView textView = (TextView) view.findViewById(R.id.edit_text_out);
-                    String message = textView.getText().toString();
-                    sendMessage(message);
-                }
-            }
-        });
-
         mSendPhoto.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-
-                //sendphoto();
-                // Send a message using content of the edit text widget
-                //Intent intent = new Intent();
-                 Intent intent = new Intent();
-                // Show only images, no videos or anything else
-                //intent.setType("image/*");
-                // intent.setAction(Intent.ACTION_GET_CONTENT);
+                Intent intent = new Intent();
                 intent.setType("image/*");
                 intent.setAction(Intent.ACTION_GET_CONTENT);
-                // Always show the chooser (if there are multiple options available)
-                //startActivityForResult(Intent.createChooser(intent, "Select Picture"), SELECT_PICTURE);
                 startActivityForResult(Intent.createChooser(intent, "Select Picture"), SELECT_PICTURE);
             }
         });
 
+        mShowPhoto.setOnClickListener(new View.OnClickListener() {
+                  public void onClick(View v) {
+                      Intent myIntent = new Intent(getActivity(), ShowGridView.class);
+                      startActivity(myIntent);
+                  }
+              });
+
         // Initialize the BluetoothChatService to perform bluetooth connections
         mChatService = new BluetoothChatService(getActivity(), mHandler);
-
-        // Initialize the buffer for outgoing messages
-        mOutStringBuffer = new StringBuffer("");
     }
 
     /**
@@ -237,30 +195,6 @@ public class BluetoothChatFragment extends Fragment {
             Intent discoverableIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_DISCOVERABLE);
             discoverableIntent.putExtra(BluetoothAdapter.EXTRA_DISCOVERABLE_DURATION, 300);
             startActivity(discoverableIntent);
-        }
-    }
-
-    /**
-     * Sends a message.
-     *
-     * @param message A string of text to send.
-     */
-    private void sendMessage(String message) {
-        // Check that we're actually connected before trying anything
-        if (mChatService.getState() != BluetoothChatService.STATE_CONNECTED) {
-            Toast.makeText(getActivity(), R.string.not_connected, Toast.LENGTH_SHORT).show();
-            return;
-        }
-
-        // Check that there's actually something to send
-        if (message.length() > 0) {
-            // Get the message bytes and tell the BluetoothChatService to write
-            byte[] send = message.getBytes();
-            mChatService.write(send);
-
-            // Reset out string buffer to zero and clear the edit text field
-            mOutStringBuffer.setLength(0);
-            mOutEditText.setText(mOutStringBuffer);
         }
     }
 
@@ -286,22 +220,6 @@ public class BluetoothChatFragment extends Fragment {
 
     }
 
-
-
-    /**
-     * The action listener for the EditText widget, to listen for the return key
-     */
-    private TextView.OnEditorActionListener mWriteListener
-            = new TextView.OnEditorActionListener() {
-        public boolean onEditorAction(TextView view, int actionId, KeyEvent event) {
-            // If the action is a key-up event on the return key, send the message
-            if (actionId == EditorInfo.IME_NULL && event.getAction() == KeyEvent.ACTION_UP) {
-                String message = view.getText().toString();
-                sendMessage(message);
-            }
-            return true;
-        }
-    };
 
     /**
      * Updates the status on the action bar.
@@ -349,7 +267,6 @@ public class BluetoothChatFragment extends Fragment {
                     switch (msg.arg1) {
                         case BluetoothChatService.STATE_CONNECTED:
                             setStatus(getString(R.string.title_connected_to, mConnectedDeviceName));
-                            mConversationArrayAdapter.clear();
                             break;
                         case BluetoothChatService.STATE_CONNECTING:
                             setStatus(R.string.title_connecting);
@@ -360,24 +277,14 @@ public class BluetoothChatFragment extends Fragment {
                             break;
                     }
                     break;
-                case Constants.MESSAGE_WRITE:
-                    byte[] writeBuf = (byte[]) msg.obj;
-                    // construct a string from the buffer
-                    String writeMessage = new String(writeBuf);
-                    mConversationArrayAdapter.add("Me:  " + writeMessage);
-                    break;
-                case Constants.MESSAGE_READ:
-                    byte[] readBuf = (byte[]) msg.obj;
-                    // construct a string from the valid bytes in the buffer
-                    String readMessage = new String(readBuf, 0, msg.arg1);
-                    mConversationArrayAdapter.add(mConnectedDeviceName + ":  " + readMessage);
-                    break;
                 case Constants.IMAGE_WRITE:
                     Bitmap bm = BitmapFactory.decodeByteArray((byte[])msg.obj, 0, ((byte[])msg.obj).length);
                     ImageView imageView = (ImageView) getView().findViewById(R.id.out_img);
                     imageView.setImageBitmap(bm);
                     break;
                 case Constants.IMAGE_READ:
+                    Toast.makeText(getActivity(), R.string.received_image,
+                            Toast.LENGTH_SHORT).show();
                     Bitmap bm1 = (Bitmap)msg.obj;
                     //Bitmap bm1 = BitmapFactory.decodeByteArray((byte[])msg.obj, 0,((byte[])msg.obj).length);
                     ImageView mImageView = (ImageView)getView().findViewById(R.id.in_img);
@@ -388,8 +295,7 @@ public class BluetoothChatFragment extends Fragment {
                     String time = String.valueOf(calendar.get(Calendar.YEAR))+"/"+String.valueOf(calendar.get(Calendar.MONTH)+1)+"/"+String.valueOf(calendar.get(Calendar.DAY_OF_MONTH));
 
                     receivedImage = MainActivity.datasource.addImage("null", "null",time);
-                    //receivedImage =  MainActivity.datasource.updateImage(receivedImage);
-                    //System.out.println("!!!!!!!!!!!!!!!!!!"+SDStorage);
+
                     try {
                         File file = new File(SDStorage, String.valueOf(receivedImage.getId())+".png");
                         FileOutputStream f = new FileOutputStream(file);
@@ -458,8 +364,12 @@ public class BluetoothChatFragment extends Fragment {
                 }
                 break;
             case SELECT_PICTURE:
-                Uri selectedImageUri = data.getData();
-                sendphoto(selectedImageUri);
+                if(resultCode == Activity.RESULT_OK) {
+                    Uri selectedImageUri = data.getData();
+                    sendphoto(selectedImageUri);
+                    Toast.makeText(getActivity(), R.string.sent_image,
+                            Toast.LENGTH_SHORT).show();
+                }
                 break;
         }
     }

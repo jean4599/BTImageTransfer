@@ -91,15 +91,6 @@ public class MainActivity extends SampleActivityBase {
         }
     }
 
-    public void buttonClick(View v) {
-        switch(v.getId()) {
-            case R.id.button_showphoto:
-                Intent myIntent = new Intent(this, ShowGridView.class);
-                startActivity(myIntent);
-                break;
-        }
-    }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
